@@ -67,6 +67,8 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<httparty>, ["~> 0.9.0"])
       s.add_runtime_dependency(%q<oauth2>, ["~> 0.8.0"])
       s.add_runtime_dependency(%q<json>, ["~> 1.7.5"])
+      s.add_development_dependency('rspec')
+      s.add_development_dependency('jeweler')
     else
       s.add_dependency(%q<httparty>, ["~> 0.9.0"])
       s.add_dependency(%q<oauth2>, ["~> 0.8.0"])
