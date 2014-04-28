@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift(File.expand_path('../..', __FILE__))
+
 require 'lib/teambox-client'
 
 TEAMBOX_SERVER = ENV["TEAMBOX_SERVER"] || "http://localhost:3000"
